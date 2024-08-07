@@ -55,8 +55,8 @@ Place in your project directory:
 ```bash
 #create virtual environment
 python -m venv kvenv
-#activate virtual environment
-source kvenv/bin/activate
+#activate virtual environment for Windows
+kvenv\Scripts\activate
 #install Python packages 
 pip install -r requirements.txt
 ```
